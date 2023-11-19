@@ -1,6 +1,5 @@
 html{
     background-color: #7EB4A3;
-    text-align: center;
     font-family: 'Georgia', serif;
     justify-content: center;
     align-items: center;
@@ -10,6 +9,7 @@ html{
 h1{
     color: #323b3a;
     padding-top: 50px;
+    text-align: center;
 }
 
 input{
@@ -39,6 +39,7 @@ button{
     width: 400px;
     border-radius: 50px;
     margin-top: 50%;
+    text-align: center;
 }
 
 .nuevo{
@@ -50,4 +51,26 @@ button{
 .nuevo:hover{
     text-decoration: none;
     color: white;
+}
+
+.cuadro2{
+    background-color: #7da397 ;
+    height: 550px;
+    width: 400px;
+    border-radius: 50px;
+    margin-top: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cuadro2 label{
+    text-align: left;
+    padding-left: 10px;
+    color: #323b3a;
+}
+
+.cuadro2 button{
+    display: block;
+    margin: 15px auto;
 }
