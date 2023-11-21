@@ -32,7 +32,7 @@
             <br>
             <button type="submit">Crear</button>
         </form>
-        <a href="index.html" class="nuevo">Ya tienes un usuario?</a>
+        <a href="index.php" class="nuevo">Ya tienes un usuario?</a>
     </div>
     <br>
     <div class="mensaje">
