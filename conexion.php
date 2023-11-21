@@ -1,12 +1,8 @@
 <?php
 $host_db="127.0.0.1";
 $user_db="root";
-<<<<<<< HEAD
 $pass_db="";
-=======
-$pass_db="319192142";
->>>>>>> b39cc07a9943cd7781f69edb6996b188be9c9bb5
-$db_name="proyecto_PWEBI";
+$db_name="proyecto_pwebi";
 
 $conexion = new mysqli($host_db,$user_db,$pass_db,$db_name);
 
