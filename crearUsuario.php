@@ -27,12 +27,15 @@
         $consulta = "INSERT into usuarios (usuario,contraseña,nombre,email) values ('$usuario','$password','$nombre','$email')";
 
         if ($conexion->query($consulta) === TRUE) {
-            echo "Dato insertado correctamente.";
+            echo "<h1>Dato insertado correctamente</h1>";
         } else {
             echo "Error al insertar dato: " . $conexion->error;
         }
     }
     ?>
+    <div class='regresar'>
+        <a href='index.php'><button>Regresar</button></a>
+    </div>
 </body>
 </html>
     

@@ -25,7 +25,6 @@
         </tr>";
 
     if ( $count>0 ){
-        //aqui se pintarian los registro de la DB
         while( $row = mysqli_fetch_assoc($resultado)  ){
         echo "<tr>";
         echo"<td>". $row['usuario'] ."</td>";
@@ -34,12 +33,12 @@
         echo"<td>". $row['email'] ."</td>";
         echo"<td>". $row['fecha_registro'] ."</td>";
         echo"<td>";
-        echo '<form action="eliminar_usuario.php" method="post" class="acciones">';
-        echo '<input type="hidden" name="idUsuario" value="' . $row['usuario'] . '">';
+        echo '<form action="eliminar.php" method="post" class="acciones">';
+        echo '<input type="hidden" name="usuario" value="' . $row['usuario'] . '">';
         echo '<button type="submit" class="eliminar">Eliminar</button>';
         echo '</form>';
-        echo '<form action="eliminar_usuario.php" method="post" class="acciones">';
-        echo '<input type="hidden" name="idUsuario" value="' . $row['usuario'] . '">';
+        echo '<form action="editar.php" method="post" class="acciones">';
+        echo '<input type="hidden" name="usuario" value="' . $row['usuario'] . '">';
         echo '<button type="submit" class="editar">Editar</button>';
         echo '</form>';
         echo '</td>';
