@@ -42,13 +42,12 @@ button{
     text-align: center;
 }
 
-.nuevo{
-    
+a{
     text-decoration: none;
     color: #323b3a;
 }
 
-.nuevo:hover{
+a:hover{
     text-decoration: none;
     color: white;
 }
@@ -77,4 +76,47 @@ button{
 
 .mensaje{
     text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+th, td{
+    padding-right: 15px;
+}
+
+tr:nth-child(even){
+    background-color: white;
+}
+
+tr:nth-child(odd){
+    background-color: #c4c4c4;
+}
+
+tr:first-child {
+    background-color: #999999;
+}
+
+.acciones{
+    display: inline;
+}
+
+.acciones button{
+    font-size: 18px;
+    height: 30px;
+    width: 90px;
+    background-color: #36574c;
+    color: white;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.eliminar:hover{
+    background-color: #B00000;
+}
+
+.editar:hover{
+    background-color: #C5A439;
 }

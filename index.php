@@ -16,7 +16,7 @@
             <br>
             <button type="submit">Entrar</button>
         </form>
-        <a href="crear.php" class="nuevo">No tienes un usuario?</a>
+        <a href="crear.php">No tienes un usuario?</a>
     </div>
     <br>
     <div class="mensaje">

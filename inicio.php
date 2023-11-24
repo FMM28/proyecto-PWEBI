@@ -32,7 +32,7 @@
         exit();
     }
 
-    
+    header("Location: sesion.php")
 
     ?>
 </body>
