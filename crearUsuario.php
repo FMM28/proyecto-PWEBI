@@ -33,7 +33,7 @@
         }
     }
     ?>
-    <div class='regresar'>
+    <div class='centrar'>
         <a href='index.php'><button>Regresar</button></a>
     </div>
 </body>
