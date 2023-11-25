@@ -84,7 +84,9 @@ table{
 }
 
 th, td{
-    padding-right: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
 }
 
 tr:nth-child(even){
@@ -134,16 +136,11 @@ tr:first-child {
     padding-bottom: 15px;
 }
 
-.alinea{
-    display: flex;
-    padding-left: 120px;
-}
-
 .cancelar:hover{
     background-color: #119100;
 }
 
-.regresar{
+.centrar{
     display: flex;
     justify-content: center;
     align-items: center;

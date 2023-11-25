@@ -14,7 +14,7 @@
         $usuario = $_POST['usuario'];
         $consulta = "SELECT * from usuarios where usuario='$usuario'";
         $resultado = $conexion->query($consulta);
-        while( $row = mysqli_fetch_assoc($resultado)  ){
+        while( $row = mysqli_fetch_assoc($resultado)){
             echo 'Usuario: '.$row['usuario'];
             echo '<br>';
             echo 'Contraseña: '.$row['contraseña'];
@@ -27,7 +27,7 @@
         }
         echo '</div>';
         echo '<h2>Seguro que quieres eliminar este usuario?</h2>';
-        echo "<div class='alinea'>";
+        echo "<div class='centrar'>";
         echo '<form action="eliminarUsuario.php" method="post">';
         echo '<input type="hidden" name="usuario" value="'. $usuario . '">';
         echo "<button type='submit' class='eliminar'>Eliminar</button>";
